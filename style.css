@@ -1,0 +1,78 @@
+ul{
+    list-style-type: none;
+}
+.hi{
+    width:10%;
+    box-shadow: rgba(143, 80, 80, 0.24) 0px 3px 8px;
+
+}
+.hello{
+    height:100%;
+    width:100px;
+    z-index:1;
+    overflow:auto;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(84, 211, 211);
+}
+.hello1{
+    height:100%;
+    width:100px;
+    z-index:1;
+    overflow:auto;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+}
+section{
+    display: inline-block;
+}
+.section_1{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top:40%;
+    right:60%;
+  }
+body{
+    background-color: rgb(239, 251, 252);
+}
+  label {
+    background-color: rgb(238, 245, 230);
+    color: rgb(8, 0, 0);
+    padding: 3rem;
+    text-align:center;
+    line-height: 125px;
+    cursor: pointer;
+    padding:8px;
+    position: fixed;
+    width: 10%;
+    height:20%;
+    left:272px;
+      }
+  input[type=url], select {
+      background-color: rgb(238, 245, 230);
+    width: 400%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  p{
+      text-align: end;
+  }
+a:link,
+a:visited{
+    color:#7bb6fa;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
